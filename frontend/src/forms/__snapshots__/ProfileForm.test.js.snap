@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileForm matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Profile mx-auto space-x-10 mt-5 flex flex-row items-center justify-center w-full md:w-6/12 lg:w-6/12 p-8 min-w-full md:min-w-3/4 lg:min-w-3/4"
+  >
+    <div
+      class="card bg-white shadow-lg rounded-lg p-6"
+    >
+      <div
+        class="card-body"
+      >
+        <h1
+          class="text-2xl font-bold mb-4"
+        >
+          Profile
+        </h1>
+        <form
+          class="ProfileForm-form space-y-4"
+        >
+          <label
+            class="block text-sm font-medium text-gray-700"
+            for="username"
+          >
+            Username
+          </label>
+          <p
+            class="text-lg"
+          >
+            @testUser
+          </p>
+          <label
+            class="block text-sm font-medium text-gray-700"
+            for="firstName"
+          >
+            First Name
+          </label>
+          <input
+            class="ProfileForm-Input block w-full p-2 border border-gray-300 rounded-md"
+            id="firstName"
+            name="firstName"
+            placeholder="First Name"
+            type="text"
+            value="Test"
+          />
+          <label
+            class="block text-sm font-medium text-gray-700"
+            for="lastName"
+          >
+            Last Name
+          </label>
+          <input
+            class="ProfileForm-Input block w-full p-2 border border-gray-300 rounded-md"
+            id="lastName"
+            name="lastName"
+            placeholder="Last Name"
+            type="text"
+            value="User"
+          />
+          <label
+            class="block text-sm font-medium text-gray-700"
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            class="ProfileForm-Input block w-full p-2 border border-gray-300 rounded-md"
+            id="email"
+            name="email"
+            placeholder="Email"
+            type="text"
+            value="test@user.com"
+          />
+          <label
+            class="block text-sm font-medium text-gray-700"
+            for="password"
+          >
+            Confirm password to make changes:
+          </label>
+          <input
+            class="ProfileForm-Input block w-full p-2 border border-gray-300 rounded-md"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required=""
+            type="text"
+            value=""
+          />
+          <span
+            class="ProfileForm-message space-y-2"
+          >
+            <p
+              class="text-red-500 text-lg"
+            />
+          </span>
+          <button
+            class="btn w-full py-2 mt-4 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+            type="submit"
+          >
+            Save Changes
+          </button>
+        </form>
+      </div>
+      <div
+        class="Delete text-center mt-8 "
+      >
+        <button
+          class="btn text-red-500 underline hover:text-red-600 mb-5"
+        >
+          Delete my profile
+        </button>
+      </div>
+    </div>
+    <div>
+      <h2
+        class="text-xl font-bold mb-4"
+      >
+        Order History
+      </h2>
+      <p>
+        No transactions yet.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

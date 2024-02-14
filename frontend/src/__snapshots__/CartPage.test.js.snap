@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartPage matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container xl:max-w-screen-xl mx-auto py-12 px-20"
+  >
+    <h2
+      class="text-4xl font-semibold"
+    >
+      Your shopping cart is empty.
+    </h2>
+    <p
+      class="mt-1 text-xl"
+    >
+      Check out our awesome products 
+      <a
+        class="text-red-500 underline"
+        href="/products"
+      >
+        here!
+      </a>
+    </p>
+  </div>
+</DocumentFragment>
+`;
